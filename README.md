@@ -5,3 +5,8 @@ This project is a simple E-Ticket Generator for flights, created using HTML, CSS
 * Random Flight Details: Generate random departure and arrival times, seat numbers, ticket numbers, and airport codes with city names.
 * Print Ticket: Option to print the generated ticket.
 * Realistic Design: Ticket design mimics a real-world flight ticket.
+
+  ![my screenshot](https://raw.githubusercontent.com/valentina-mota/web-images/main/e-ticket-srnshot.png)
+
+
+  
