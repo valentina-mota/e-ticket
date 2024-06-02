@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyFlightTicket</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="ticket">
+        <div class="ticket-left">
+            <div class="circle one"></div>
+            <div class="circle two"></div>
+                <div class="route">
+                    <div class="airport">
+                        <div class="airport-code" id="departure-airport">BUD</div>
+                        <div class="city-name" id="departure-city">Budapest</div>
+                    </div>
+                    <div class="airplane-icon">
+                        <img src="https://raw.githubusercontent.com/valentina-mota/web-images/main/plane_8740006.png" alt="">
+                    </div>
+                    <div class="airport">
+                        <div class="airport-code" id="arrival-airport">HEL</div>
+                        <div class="city-name" id="arrival-city">Helsinki</div>
+                    </div>           
+                </div>
+                <div class="details">
+                    <div class="detail">
+                        <span class="label">Departure</span>
+                        <span class="value" id="departure-time">16:25</span>
+                    </div>
+                    <div class="detail">
+                        <span class="label">Arrival</span>
+                        <span class="value" id="arrival-time">21:40</span>
+                    </div>
+                    <div class="detail">
+                        <span class="label">Seat</span>
+                        <span class="value" id="seat-number">54B</span>
+                    </div>
+                    <div class="detail">
+                        <span class="label">Ticket No.</span>
+                        <span class="value" id="ticket-number">FF346Y</span>
+                    </div>
+                </div>
+                <div class="info">
+                    Et justo, <span class="highlight">praesent sem placerat</span> sapiente nec convallis non. Eget volutpat laoreet consectetur taciti dignissim. <span class="highlight">Vel diam feugiat lacus</span>, integer pellentesque, dolor mi ac nibh pharetra purus nonummy.
+                </div>
+        </div>
+        <div class="ticket-right">
+            <div class="mini-ticket">
+                <div class="route">
+                    <div class="airport">
+                        <div class="airport-code" id="mini-departure-airport">BUD</div>
+                        <div class="city-name" id="mini-departure-city">Budapest</div>
+                    </div>
+                    <div class="mini-ticket-airplane-icon">
+                        <img src="https://raw.githubusercontent.com/valentina-mota/web-images/main/plane_8740006.png" alt="">
+                    </div>
+                    <div class="airport">
+                        <div class="airport-code" id="mini-arrival-airport">HEL</div>
+                        <div class="city-name" id="mini-arrival-city">Helsinki</div>
+                    </div>           
+                </div>
+                <div class="details">
+                    <div class="detail">
+                        <span class="label">Departure</span>
+                        <span class="value" id="mini-departure-time">16:25</span>
+                    </div>
+                    <div class="detail">
+                        <span class="label">Arrival</span>
+                        <span class="value" id="mini-arrival-time">21:40</span>
+                    </div>
+                    <div class="detail">
+                        <span class="label">Seat</span>
+                        <span class="value" id="mini-seat-number">54B</span>
+                    </div>
+                    <div class="detail">
+                        <span class="label">Ticket No.</span>
+                        <span class="value" id="mini-ticket-number">FF346Y</span>
+                    </div>
+                </div>
+                <div class="barcode">
+                    <img src="https://raw.githubusercontent.com/valentina-mota/web-images/main/barcode.png" alt="">
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    <button id="print-ticket">Print Ticket</button>
+    <button id="generate-ticket">Generate New Ticket</button>
+</body>
+</html>
